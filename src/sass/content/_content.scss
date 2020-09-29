@@ -1,0 +1,21 @@
+@import "./categories";
+@import "./items";
+
+.content {
+  width: 100%;
+  display: flex;
+
+  aside {
+    min-height: 900px;
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #eee;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+  }
+
+  article {
+    flex: 7;
+  }
+}

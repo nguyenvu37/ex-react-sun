@@ -1,0 +1,39 @@
+.pagination {
+  background-color: #eee;
+  font-size: 1.2em;
+  line-height: 3em;
+  text-align: center;
+  margin: 10px 5px 0;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    li {
+      margin: 0 10px;
+      font-size: medium;
+
+      span {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        color: #0063c3;
+      }
+    }
+  }
+
+  .pagination__item__link {
+    border: 0;
+    outline: none;
+
+    i {
+      margin: 0 5px;
+    }
+  }
+
+  .pagination__item__link.active {
+    color: #fff;
+    background-color: orange;
+  }
+}

@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  z-index: 99;
+  padding: 10px;
+  background: #222f3f;
+  position: sticky;
+  top: 0;
+
+  .logo {
+    display: flex;
+
+    &__img {
+      margin-right: 12px;
+    }
+
+    &__title {
+      margin-right: 16px;
+      font-size: 30px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    img {
+      vertical-align: middle;
+    }
+  }
+
+  .search {
+    width: 350px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+
+    input {
+      border: 0;
+      padding: 5px 10px;
+      font-size: 14px;
+      line-height: 1.42857143;
+      color: #555;
+      width: 70%;
+    }
+
+    button {
+      height: 30px;
+      width: 24%;
+      padding: 0 30px;
+      border: 0;
+      background: #ffbe61;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  }
+}

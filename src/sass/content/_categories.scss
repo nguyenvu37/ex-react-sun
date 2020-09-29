@@ -1,0 +1,168 @@
+.categories {
+  margin-bottom: 16px;
+
+  #clear-filter {
+    text-align: center;
+    margin-bottom: 20px;
+
+    button {
+      font-size: 13px;
+      background-color: #fff;
+      border: solid 1px;
+      border-color: #ccc;
+      outline: none;
+      border-radius: 5px;
+      padding: 5px 25px;
+
+      i {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  &__wrapper {
+    padding-bottom: 12px;
+    border-bottom: solid 1px #eee;
+    margin-bottom: 12px;
+    font-size: 14px;
+
+    &__content {
+      &__item {
+        margin-bottom: 5px;
+      }
+    }
+
+    &__title {
+      font-size: 1.2em;
+      color: #888;
+      margin: 0 0 8px;
+
+      button {
+        i {
+          margin-right: 5px;
+        }
+      }
+    }
+
+    .item-categories {
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px;
+      align-items: flex-start;
+
+      button {
+        margin-top: 5px;
+      }
+    }
+  }
+
+  .appliancies__btn {
+    button {
+      text-transform: capitalize;
+    }
+  }
+
+  button {
+    border: 0;
+    background-color: #fff;
+    outline: none;
+  }
+
+  .facet__item {
+    margin-bottom: 16px;
+
+    &__title {
+      font-size: 13px;
+      font-weight: 700;
+      margin: 5px 0;
+    }
+
+    &__list {
+      &__name {
+        margin: 3px 0;
+        cursor: pointer;
+        font-size: 13px;
+        span {
+          margin-left: 5px;
+        }
+        label {
+          cursor: pointer;
+        }
+      }
+    }
+
+    &__form-price {
+      margin-top: 10px;
+      margin-bottom: 60px;
+
+      .form-price__value {
+        display: flex;
+      }
+
+      label {
+        display: flex;
+        align-items: center;
+        margin-right: 5px;
+
+        input {
+          width: 50px;
+          margin-left: 3px;
+        }
+      }
+
+      span {
+        margin-right: 5px;
+      }
+
+      button {
+        float: right;
+        width: 22px;
+        height: 22px;
+        padding: 0;
+        font-size: 10px;
+        line-height: 20px;
+        border: solid 1px #888;
+        border-radius: 50%;
+        text-align: center;
+        background-color: #eee;
+        margin-top: 5px;
+
+        &:hover {
+          color: #0063c3;
+          background-color: #fff;
+        }
+      }
+    }
+  }
+
+  .facet__item__list__rating {
+    display: flex;
+    cursor: pointer;
+
+    &__star {
+      i {
+        color: orange;
+        font-size: 10px;
+        margin-right: 2px;
+      }
+    }
+
+    &__count {
+      margin-left: 10px;
+
+      span {
+        margin-left: 5px;
+      }
+    }
+  }
+
+  .facet__item__list__price {
+    font-size: 13px;
+    cursor: pointer;
+
+    i {
+      font-size: 11px;
+      margin-right: 2px;
+    }
+  }
+}
